@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* figma url : https://www.figma.com/design/ZLkjwG5ehxNRrC4SUA2WG7/Prescripto---UI-Design?node-id=0-1&p=f&t=IOUWIwc1dVyBjLfo-0 */
+
+
+:root {
+   --primary : #5f6fff;
+   --secondry : #c9d8ff;
+}
+
+.active hr{
+   @apply block
+}
+
+* {
+   font-family: Outfit, sans-serif;
+}
